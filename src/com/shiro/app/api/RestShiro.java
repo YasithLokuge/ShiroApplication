@@ -26,13 +26,13 @@ import javax.ws.rs.core.MediaType;
 public class RestShiro {
 	
 	/**
-	 * Gets the company.
+	 * Gets the message.
 	 *
-	 * @return the company
+	 * @return the message
 	 */
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)		
-	public String getCompany(){				
+	public String getMessage(){				
 		return "HelloWorld";		
 	}
 }

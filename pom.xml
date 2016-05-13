@@ -19,6 +19,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
+		<!--Build Properties-->
 		<finalName>shiroapp</finalName>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
